@@ -89,14 +89,28 @@ body {
   }
   .timeline .header span {
     display: inline-block;
-    padding-bottom: 10px;
+    padding: 10px 0 10px 0;
   }
   .timeline .header:after {
     content: "";
     display: block;
-    width: 90%;
+    width: 80%;
     margin: auto;
-    height: 2px;
+    height: 1px;
+    background: #008fc6;
+  }
+  hr.line {
+    border: none;
+    background-color: #008fc6;
+    height: 1px;
+    width: 23%;
+  }
+  .timeline .header:before {
+    content: "";
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 1px;
     background: #008fc6;
   }
   .timeline .header--end:before {
@@ -193,3 +207,17 @@ body {
     right: auto;
     left: 0;
   }
+  a:link {
+    text-decoration: none;
+    color: #008fc6;
+}
+a:hover {
+    text-decoration: underline;
+    color: #008fc6;
+}
+a:visited {
+    color: #008fc6;
+}
+    a:active {
+        color: #008fc6;
+    }
