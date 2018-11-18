@@ -243,3 +243,7 @@ a:visited {
 a:active {
   color: #008fc6;
 }
+
+p.end {
+  margin-bottom: 30px;
+}
